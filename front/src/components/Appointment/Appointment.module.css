@@ -1,0 +1,36 @@
+
+.appointment{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid gray;
+    border-radius: 4em;
+    padding: 2em 2em 2em 2em;
+    width: fit-content;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5); ;
+}
+
+.data{
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.button{border: 1px solid black;
+    border-radius: 1em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    cursor: pointer;
+    background-color: red;
+}
+
+.statusActive {
+    background-color: green;
+    color: black;
+  }
+  
+  .statusCancelled {
+    background-color: red;
+    color: black;
+  }
